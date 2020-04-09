@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google-Doc-Clone</title>
+    <link type="text/css" rel="stylesheet" rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Include Theme stylesheet -->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  >
+    <link href="./assets/css/quill.snow.css"  type="text/css" rel="stylesheet">
+    <!-- Custom stylesheet -->
+    <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Create the editor container -->
+<div class="">
+  <nav class=" fix-nav navbar navbar-expand-lg navbar-white bg-white">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            File
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#" onclick="SaveData()">Save</a>
+            <a class="dropdown-item" href="#" onclick="ClearData()">Clear</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div id="editor">
+  <h1>Problem statement</h1>
+  <p><br></p>
+  <h3>Create a clone of google docs page as given in the below screenshot.</h3>
+  <p><br></p>
+  <h3> (This assignment link is also a google drive link, which you can reference while doing the task) The page at the center should have a page upon which you can actually type. You may use any editor tools like <a href="https://www.tinymce.com/ or https://github.com/textAngular/textAngular" target="_blank">https://www.tinymce.com/ or https://github.com/textAngular/textAngular</a> but the end look of your page must look like the google doc page in the screenshot below. </h3>
+  <p><br></p>
+  <h3>You don’t need to save any data at the backend, only the UI view is required.</span></h3>
+  <p><br></p>
+  <h2>Introduction</h2>
+  <p><br></p>
+  <p>The assignment will be judged based on the</p>
+  <ol>
+     <li>Structure, design, and modularity in the project</li>
+     <li>Accuracy and speed of code</li>
+     <li>Functionality completion</li>
+     <li>The commits and overall flow while development. (Solution approach)</li>
+  </ol>
+  <p>Do not post solutions on github or other public forums. </strong>If traced back, we will have to disqualify.</p>
+  <p><br></p>
+  <h2>Constraints:</h2>
+  <p>You are free to use any language or frameworks of your choice, but your README should be very detailed and should contain all the relevant information.</p>
+  
+</div>
+</div>
+
+
+<script
+  src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<!-- Include the Quill library -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./assets/js/quill.min.js"></script>
+<!-- Initialize Quill editor Js -->
+<script src="./assets/js/RichEditor.js"></script>
+</body>
+</html>
